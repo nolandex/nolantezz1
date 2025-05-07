@@ -1,0 +1,30 @@
+/* Products Page */
+.products {
+  padding: 60px 0;
+}
+
+.products h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0F172A;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.filter-options select {
+  padding: 10px 15px;
+  border: 1px solid #CBD5E1;
+  border-radius: 5px;
+  background: white;
+  color: #0F172A;
+  font-weight: 600;
+}
+
+.filter-options select:focus {
+  outline: none;
+  border-color: #3B82F6;
+}
