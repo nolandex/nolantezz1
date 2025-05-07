@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - ShoeStore</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header/Navigation -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">ShoeStore</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html" class="active">Cart</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <span class="cart-count">2</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cart Section -->
+  <section class="cart">
+    <div class="container">
+      <h1>Your Shopping Cart</h1>
+      <div class="cart-container">
+        <div class="cart-items">
+          <!-- Cart Item 1 -->
+          <div class="cart-item">
+            <img src="images/product1.jpg" alt="Nike Shoe">
+            <div class="item-details">
+              <h3>Nike Shoe</h3>
+              <p>$85.00</p>
+              <div class="quantity-controls">
+                <button class="quantity-btn">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn">+</button>
+              </div>
+            </div>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+          <!-- Cart Item 2 -->
+          <div class="cart-item">
+            <img src="images/product3.jpg" alt="Black Heels">
+            <div class="item-details">
+              <h3>Black Heels</h3>
+              <p>$85.00</p>
+              <div class="quantity-controls">
+                <button class="quantity-btn">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn">+</button>
+              </div>
+            </div>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+        <div class="cart-summary">
+          <h2>Order Summary</h2>
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>$170.00</span>
+          </div>
+          <div class="summary-row">
+            <span>Shipping</span>
+            <span>$10.00</span>
+          </div>
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>$180.00</span>
+          </div>
+          <button class="btn checkout-btn">Proceed to Checkout</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>We provide the best quality shoes at affordable prices.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <p>Email: info@shoestore.com</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 ShoeStore. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+  </html>
