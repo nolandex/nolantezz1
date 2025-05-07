@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products - ShoeStore</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header/Navigation -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">ShoeStore</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html" class="active">Products</a>
+          <a href="cart.html">Cart</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section class="products">
+    <div class="container">
+      <h1>Our Products</h1>
+      <div class="filter-options">
+        <select id="category-filter">
+          <option value="all">All Categories</option>
+          <option value="sneakers">Sneakers</option>
+          <option value="heels">Heels</option>
+          <option value="boots">Boots</option>
+          <option value="sandals">Sandals</option>
+        </select>
+        <select id="sort-by">
+          <option value="default">Sort By</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="popular">Most Popular</option>
+        </select>
+      </div>
+      <div class="products-grid">
+        <!-- Product cards will be loaded here -->
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="images/product1.jpg" alt="Nike Shoe">
+          <h3>Nike Shoe</h3>
+          <p>$85.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="images/product2.jpg" alt="Sneakers">
+          <h3>Sneakers ft</h3>
+          <p>$85.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="images/product3.jpg" alt="Black Heels">
+          <h3>Black Heels</h3>
+          <p>$85.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img src="images/product4.jpg" alt="Casual Shoes">
+          <h3>Casual Shoes</h3>
+          <p>$85.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card">
+          <img src="images/product5.jpg" alt="Running Shoes">
+          <h3>Running Shoes</h3>
+          <p>$95.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card">
+          <img src="images/product6.jpg" alt="Formal Shoes">
+          <h3>Formal Shoes</h3>
+          <p>$75.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 7 -->
+        <div class="product-card">
+          <img src="images/product7.jpg" alt="Sports Shoes">
+          <h3>Sports Shoes</h3>
+          <p>$110.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+        <!-- Product 8 -->
+        <div class="product-card">
+          <img src="images/product8.jpg" alt="Winter Boots">
+          <h3>Winter Boots</h3>
+          <p>$120.00</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>We provide the best quality shoes at affordable prices.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <p>Email: info@shoestore.com</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 ShoeStore. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
